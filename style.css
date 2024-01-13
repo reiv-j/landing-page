@@ -1,5 +1,32 @@
+body {
+    font-family: ;
+}
+
 .hero {
     width: 100%;
     height: 400px;
     background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+nav {
+    height: 50px;
+    margin: 0 220px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+}
+
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+
 }
