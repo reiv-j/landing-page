@@ -9,14 +9,60 @@ body {
     color: #F9FAF8;
 }
 
+.hero h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
 nav {
     height: 50px;
-    margin: 0 220px;
+    margin: 0 420px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
+
+.hero-content {
+    height: 350px;
+    margin: 0 420px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 70px;
+}
+
+.left, .right {
+    flex-basis: 50%;
+}
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.hero-content h2 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-content p {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.hero-content button {
+    width: 100px;
+    padding: 4px 24px;
+    border-radius: 6px;
+}
+
+.hero-content img {
+    border: 1px solid white;
+    width: 520px;
+    height: 250px;
+}
+
 
 ul {
     list-style-type: none;
