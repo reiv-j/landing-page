@@ -76,3 +76,36 @@ a {
     color: #F9FAF8;
 
 }
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.information h3 {
+    font-size: 32px;
+    font-weight: 900;
+    margin-top: 50px;
+}
+
+.information .icons {
+    display: flex;
+    gap: 60px;
+}
+
+.information .icon {
+    width: 140px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+
+.information .img {
+    border: 3px solid #3882F6;
+    border-radius: 8px;
+    width: 140px;
+    height: 140px;
+}
