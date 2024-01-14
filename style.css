@@ -133,13 +133,60 @@ blockquote p {
 }
 
 blockquote p::before {
-content: '\201C';
+    content: '\201C';
 }
 
 blockquote p::after {
-content: '\201D';
+    content: '\201D';
 }
 
 blockquote footer {
     text-align: right;
+}
+
+.action {
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.action-content {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    width: 1000px;
+    padding: 30px 100px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action-content h4 {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.action-content p {
+    font-weight: lighter;
+}
+
+.action-content button {
+    color: #F9FAF8;
+    font-weight: bold;
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    border-radius: 6px;
+    padding: 5px 25px;
+    cursor: pointer;
+}
+
+body > footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
